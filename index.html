@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-128173477-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'UA-128173477-1');
+	</script>
+
+	<title>David McEvilly Website</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.js"></script>
+
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">	
+
+	<link rel="stylesheet" href="assets/gridloading/css/component.css">
+	<link rel="stylesheet" href="assets/animate.css" >
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.min.js"></script>
+	<script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+	
+	<link rel="manifest" href="manifest.json">
+
+	<script>	
+		var projectsJson;
+		var selectedProject;
+		$(function() {
+			$( "#landing" ).load("pages/landing.html");
+			$( "#skills" ).load("pages/skills.html");
+			$( "#projects" ).load("pages/projects.html");	
+			$( "#contact" ).load("pages/contact.html");	
+			
+			emailjs.init("user_XKYu1jiwIuvrzv64GO1aN");
+		});
+
+
+		/* Set the width of the side navigation to 250px */
+		function slideIn(sp) {			
+			$( "#mySidenav" ).load("pages/details.html", function() {
+				$.each(projectsJson.projects, function(i, item) {
+					if(item.project == sp){
+						$("#DetailsHeader").append(item.project);
+						$("#DetailsText").append(item.details);
+						$("#DetailsImg").attr("src",item.image);
+						if(item.link == "DEAD"){
+							$("#DetailsLink").append('<a class="detailsURL" href="images/dead.jpg">DEAD</a>');
+						}
+						else{
+							$("#DetailsLink").append('<a class="detailsURL" href="' + item.link + '">'+ item.link +'</a>');
+						}
+					}
+				})
+			});
+			$( "#mySidenav" ).css({"width": "100%"});
+			
+			//document.getElementById("mySidenav").style.width = "100%";
+		}
+
+		
+
+		/* Set the width of the side navigation to 0 */
+		function closeNav() {
+			document.getElementById("mySidenav").style.width = "0";
+		}
+
+		function selectProject(){
+			
+		}
+
+		jQuery(window).load(function () {
+			$.getJSON("./data/projects.json", function(json) {
+				projectsJson = json;
+			});	
+		});
+
+	</script>
+
+
+</head>
+
+<body>
+
+<!-- header -->
+<div id="top" class="header-bg fullpage">
+	<div id="landing" class="header fullpage">
+		
+	</div>
+</div>
+<!-- header -->
+
+
+<div class="content-body"><!--Content Body-->
+<!-- SKILLS -->
+	<div id="skills" class="spacer skills">
+		
+	</div>
+<!-- /SKILLS -->
+
+
+<!-- WORKS -->
+	<div id="projects" class="portfolio spacer">
+		
+	</div>
+<!-- /WORKS -->
+</div><!--/Content Body-->
+
+
+<!-- Footer -->
+<div id="footer" class="footer center spacer">			
+	 <!-- CONTACT  -->
+	 <div id="contact" class="container">
+
+	</div> 
+	 <!-- /CONTACT  -->
+</div>
+<!-- /Footer -->
+<!-- /This href puts you back to the top of the page -->
+<a href="#top" class="toTop scroll"><i class="fa fa-angle-up"><img alt="portfolio" src="images/topbl.png" width="32"></i></a>	
+
+</body>
+</html>

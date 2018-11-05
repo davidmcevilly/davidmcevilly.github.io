@@ -1,0 +1,50 @@
+<!-- <div class="row">
+    <div id="emailFormDiv" class="col-sm-offset-3 col-sm-6 contact-form">		
+        <h2>Contact</h2>
+        <p>I am open to job offers.</p>
+        <form id="emailForm" onsubmit="return sendEmail()">
+            <input id="SenderName" type="text" name="form_name" class="form-control" placeholder="Name" >
+            <input id="SenderEmail" type="email" name="form_email" class="form-control" placeholder="Email">
+            <input id="SenderSubject" type="text" name="form_subject" class="form-control" placeholder="Subject" >
+            <textarea id="SenderMessage" name="form_message" class="form-control" placeholder="Message" rows="5"></textarea>
+            <input type="submit" name="Submit" class="btn btn-primary btn-lg" value="Submit">
+        </form>
+        <img id='sentDiv' style="height:0px; background-color:#3a3c4c"/>      
+    </div>
+    
+</div>	
+
+<script src="./emailScript.js"></script> -->
+
+<div class="container absolute-center">
+  <div class="row">
+  <div class="ContactView" id="ContactView">
+    <div class="sendEmail" :class="{'open': formOpen}">
+      <div class="button-copy" v-show="!formOpen" @click="formOpen = true">Contact</div>
+      <form v-on:submit.prevent="sendMail">
+
+          <div class="form--field">
+              <label>Name</label>
+              <input type="text" class="form--element" name="name" v-model="emailData.Name" placeholder="Name" required="">
+            </div>
+        <div class="form--field">
+          <label>Subject</label>
+          <input type="text" class="form--element" name="subject" v-model="emailData.Subject" placeholder="Subject" required="">
+        </div>
+        <div class="form--field">
+            <label>Email</label>
+            <input type="text" class="form--element" name="email" v-model="emailData.Email" placeholder="Email" required="">
+          </div>      
+        <div class="form--field">
+          <label>Message</label>
+          <textarea class="form--element textarea" v-model="emailData.Message" placeholder="Message">                                
+          </textarea>
+        </div>
+
+        <button type="submit" class="submit-button">Send</button>
+        <div class="cancel"><span v-on:click="cancel">Cancel</span></div>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="./emailScript.js"></script>

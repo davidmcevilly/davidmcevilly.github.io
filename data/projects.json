@@ -1,0 +1,45 @@
+{
+    "projects":[
+        {
+            "project":"mothers2mothers",
+            "image":"https://upload.wikimedia.org/wikipedia/en/c/c7/Mothers2mothersLOGO.jpg",
+            "link":"http://www8.hp.com/us/en/hp-news/press-release.html?id=839911#.WbqbWsiGNaQ",
+            "details":"mothers2mothers is an international nonprofit organisation dedicated to preventing mother-to-child transmission of HIV by providing education and support for pregnant women and new mothers living with HIV. mothers2mothers believes in the power of women to eliminate paediatric AIDS and create health and hope for themselves and their babies, families, and communities. I worked as part of a social innovation team helping mothers2mothers to move from a paper based records system to digital system which was in use in 700 sites accross africa."
+        },
+        {
+            "project":"Fundacion Paraguaya",
+            "image":"http://www.fundacionparaguaya.org.py/wp-content/themes/fundacion/images/logo_fundacionparaguaya.png",
+            "link":"https://www.youtube.com/watch?v=ggPMSlFQBa8",
+            "details":"Fundación Paraguaya is a leading edge self-sufficient social enterprise founded in Paraguay in 1985 that seeks to develop innovative solutions to poverty and unemployment, and proactively disseminate them throughout the world. I worked as part of a team which created a visual survey mobile application to allow Fundación Paraguaya to asses the living conditions of poor families in a more personnal and meaningful way."
+        },
+        {
+            "project":"HP InContext Analytics",
+            "image":"images/HPICALogo.png",
+            "link":"https://www.youtube.com/watch?v=rNWZJq0V640",
+            "details":"HP InContext Analytics was a POC for a plugin for Microsoft Lync which used Autonomy's big data search engine IDOL to search a companies internal documents or the web for results which were relevant to the ongoing Lync conversation. For this project I worked as one of the lead developers helping to architect, design and develope the solution accross the full stack."
+        },
+        {
+            "project":"HPE TeleHealthCare",
+            "image":"images/THCLogo.png",
+            "link":"https://www.youtube.com/watch?v=AnKAT2-Y-QI",
+            "details":"The HPE TeleHealthcare platform provides an out of the box fully managed service that provides care to people through Mobile solutions through integrated medical devices, a clinical data repository and telecommunication services which is fully managed and hosted in the Cloud. For this solution I acted as architect helping to design the end to end solution and Lead Developer guiding the development of the backend services, front end portal, mobile applicaion and medical device integration."
+        },
+        {
+            "project":"Diabetes Digital Coach",
+            "image":"https://static1.squarespace.com/static/587369e55016e169c24ebe73/t/588770bfe6f2e1097e9506b0/1498468188525/?format=1500w",
+            "link":"https://www.diabetesdigitalcoach.org/",
+            "details":"Diabetes Digital Coach is an NHS / IoT (Internet of Things) test bed project, a unique collaboration between 10 partners. It is led by the West of England Academic Health Science Network (AHSN) and funded by the Department of Health through Innovate UK. In this project I am working as the Lead developer for the backend services handling the integration of partner data and serving of data for the front end portal."
+        },
+        {
+            "project":"Card Matcher",
+            "image":"images/CardMatcher.png",
+            "link":"https://play.google.com/store/apps/details?id=com.mcevilly.CardMatcher",
+            "details":"Just a simple card matching game I built for my son to help with his fine motor skills."
+        },
+        {
+            "project":"Roald Dahl Name",
+            "image":"images/rdbanner.jpg",
+            "link":"DEAD",
+            "details":"A silly application I made for Roald Dahl Day based of a page in the Roald Dahl Party Pack 2017 PDF which let you calculate your Roald Dahl Name based on the first letter of your first and last name. I am The Whoopsy-splunkers HORNSWOGGLER. I informed the people resopnsible for dealing with copyright of Roald Dahl materials and they asked me to take down the application after Roald Dahl Day because it was infringing copyright. Which is fair enough because I stole the entire content of the app from their website and pdf :)"
+        }]
+}
