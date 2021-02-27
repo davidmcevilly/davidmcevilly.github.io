@@ -21,13 +21,13 @@
         {
             "project":"HPE TeleHealthCare",
             "image":"images/THCLogo.png",
-            "link":"https://www.youtube.com/watch?v=AnKAT2-Y-QI",
+            "link":"https://www.youtube.com/watch?v=4-ol9o-VN5E",
             "details":"The HPE TeleHealthcare platform provides an out of the box fully managed service that provides care to people through Mobile solutions through integrated medical devices, a clinical data repository and telecommunication services which is fully managed and hosted in the Cloud. For this solution I acted as architect helping to design the end to end solution and Lead Developer guiding the development of the backend services, front end portal, mobile applicaion and medical device integration."
         },
         {
             "project":"Diabetes Digital Coach",
-            "image":"https://static1.squarespace.com/static/587369e55016e169c24ebe73/t/588770bfe6f2e1097e9506b0/1498468188525/?format=1500w",
-            "link":"https://www.diabetesdigitalcoach.org/",
+            "image":"images/WEAHSN.png",
+            "link":"https://www.weahsn.net/case-study-diabetes-digital-coach-internet-of-things-test-bed/",
             "details":"Diabetes Digital Coach is an NHS / IoT (Internet of Things) test bed project, a unique collaboration between 10 partners. It is led by the West of England Academic Health Science Network (AHSN) and funded by the Department of Health through Innovate UK. In this project I am working as the Lead developer for the backend services handling the integration of partner data and serving of data for the front end portal."
         },
         {
@@ -37,9 +37,9 @@
             "details":"Just a simple card matching game I built for my son to help with his fine motor skills."
         },
         {
-            "project":"Roald Dahl Name",
-            "image":"images/rdbanner.jpg",
-            "link":"DEAD",
-            "details":"A silly application I made for Roald Dahl Day based of a page in the Roald Dahl Party Pack 2017 PDF which let you calculate your Roald Dahl Name based on the first letter of your first and last name. I am The Whoopsy-splunkers HORNSWOGGLER. I informed the people resopnsible for dealing with copyright of Roald Dahl materials and they asked me to take down the application after Roald Dahl Day because it was infringing copyright. Which is fair enough because I stole the entire content of the app from their website and pdf :)"
+            "project":"Fleetmanager",
+            "image":"images/orb_logo.png",
+            "link":"https://www.orbcomm.com/eu/solutions/web-applications/fleet-management",
+            "details":"FleetManager is a cloud-based analytics platform and information management engine which unlocks valuable data for every user in the organisation. Optimised to work with ORBCOMM’s truck, trailer, refrigerated and container monitoring devices, FleetManager delivers advanced reporting and analytics for the entire fleet on one single platform."
         }]
 }

@@ -24,7 +24,7 @@ h1{font-weight:300;font-size: 60px;line-height: 80px;}
 h2{font-weight:300;font-size: 40px;line-height:38px;margin-bottom:80px;}
 h3{font-weight:300;font-size: 35px;line-height:38px;margin-bottom:40px;}
 
-.spacer{padding: 100px 0;}
+.spacer{padding: 50px 0; }
 .center{text-align: center;}
 
 .header-bg {background:url(images/header-bg1.jpg) center fixed;background-size:cover; }
