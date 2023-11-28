@@ -1,31 +1,52 @@
 {
-    "name": "David McEvilly",
-    "short_name": "DME",
-    "icons": [{
+  "name": "David McEvilly",
+  "short_name": "DME",
+  "id": "/index.html",
+  "description": "David McEvilly's personal website",
+  "icons": [
+    {
       "src": "images/icon-128x128.png",
-        "sizes": "128x128",
-        "type": "image/png"
-      }, {
-        "src": "images/icon-144x144.png",
-        "sizes": "144x144",
-        "type": "image/png"
-      }, {
-        "src": "images/icon-152x152.png",
-        "sizes": "152x152",
-        "type": "image/png"
-      }, {
-        "src": "images/icon-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }, {
-        "src": "images/icon-256x256.png",
-        "sizes": "256x256",
-        "type": "image/png"
-      }],
-    "start_url": "index.html",
-    "display": "standalone",
-    "background_color": "#302F30",
-    "theme_color": "#302F30",
-    "orientation": "portrait"
-  }
-
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/screenshot_narrow.png",
+      "type": "image/png",
+      "sizes": "440x1008",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "images/screenshot_wide.png",
+      "type": "image/png",
+      "sizes": "1808x1115",
+      "form_factor": "wide"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#302F30",
+  "theme_color": "#302F30",
+  "orientation": "portrait"
+}
