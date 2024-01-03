@@ -30,20 +30,6 @@
       "type": "image/png"
     }
   ],
-  "screenshots": [
-    {
-      "src": "images/screenshot_narrow.PNG",
-      "type": "image/png",
-      "sizes": "440x1008",
-      "form_factor": "narrow"
-    },
-    {
-      "src": "images/screenshot_wide.PNG",
-      "type": "image/png",
-      "sizes": "1808x1115",
-      "form_factor": "wide"
-    }
-  ],
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#302F30",
