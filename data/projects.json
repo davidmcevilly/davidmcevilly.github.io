@@ -40,6 +40,12 @@
             "project":"Fleetmanager",
             "image":"images/orb_logo.png",
             "link":"https://www.orbcomm.com/eu/solutions/web-applications/fleet-management",
-            "details":"FleetManager is a cloud-based analytics platform and information management engine which unlocks valuable data for every user in the organisation. Optimised to work with ORBCOMM’s truck, trailer, refrigerated and container monitoring devices, FleetManager delivers advanced reporting and analytics for the entire fleet on one single platform."
+            "details":"FleetManager is a cloud-based analytics platform and information management engine which unlocks valuable data for every user in the organisation. Optimised to work with ORBCOMM's truck, trailer, refrigerated and container monitoring devices, FleetManager delivers advanced reporting and analytics for the entire fleet on one single platform."
+        },
+        {
+            "project":"HPE Pointnext R&D",
+            "image":"images/hpe.png",
+            "link":"https://support.hpe.com/connect/s/?language=en_US",
+            "details":"An innovative IT services organization at HPE built to make Hybrid IT simple and power the Intelligent Edge. Our work focused on building the HPE customer support portal particularly searching products using a variety of in house technologies as well as third party tools such as Coveo. "
         }]
 }
